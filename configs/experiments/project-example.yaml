@@ -1,0 +1,7 @@
+project_name: "LCT 2024 Task 23"
+experiment_name: "v0.0"
+
+config: "configs/ultralytics/data-example.yaml"
+model: "yolov8n"
+
+n_epochs: 1

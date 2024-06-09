@@ -1,0 +1,12 @@
+path: /Users/anaidashaginian/education/lct2024/github/lct-23-training/data/data_example # dataset root dir
+train: images/train # train images (relative to 'path') 118287 images
+val: images/val # val images (relative to 'path') 5000 images
+#test: test-dev2017.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: copter-type_UAV
+  1: airplane
+  2: helicopter
+  3: bird
+  4: aircraft-type_UAV
