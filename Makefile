@@ -8,3 +8,5 @@ setup:
 	pip install -r requirements.txt
 	clearml-init
 
+train:
+	PYTHONPATH=. python src/train.py configs/experiments/project-example.yaml
