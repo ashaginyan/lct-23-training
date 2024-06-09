@@ -28,7 +28,7 @@ def train(config: Config):
     )
 
     model = YOLO(f"{config.model}.pt")
-    model.train(data="configs/ultralytics/data-example.yaml", epochs=config.n_epochs)
+    model.train(data=config.config, epochs=config.n_epochs)
     model.val()
     model.export(format="onnx")
 
